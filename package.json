@@ -1,0 +1,9 @@
+{
+  "name": "gi-agencia-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site institucional e sistema de briefing da G&I Agência",
+  "dependencies": {
+    "pg": "8.16.3"
+  }
+}
