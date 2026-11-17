@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b0e12" />
+  <meta name="description" content="Conte à G&I Agência sobre seu projeto. Vamos conversar sobre sites, identidade visual, vídeos e estratégia digital." />
+  <meta property="og:title" content="Vamos conversar | G&I Agência" />
+  <meta property="og:description" content="Seu próximo projeto começa com uma conversa. Fale com a G&I Agência." />
+  <meta property="og:type" content="website" />
+  <link rel="canonical" href="https://giagencia.com.br/contato/" />
+  <link rel="icon" href="../assets/gi-symbol.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="stylesheet" href="contato.css" />
+  <title>Contato | G&I Agência — Do seu sonho à sua marca</title>
+</head>
+<body class="contact-page">
+  <header class="contact-header">
+    <a href="../" class="brand" aria-label="G&I Agência — página inicial">
+      <img src="../assets/gi-symbol.svg" width="53" height="36" alt="" />
+      <span class="brand-name"><b>G&I</b><small>AGÊNCIA</small></span>
+    </a>
+    <div class="contact-header-right">
+      <span class="header-caption">ESTÚDIO CRIATIVO <span class="blue-star">✳</span> BRASIL</span>
+      <a class="contact-home-link" href="../">VOLTAR AO SITE <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main class="contact-main">
+    <div class="contact-grid-mark" aria-hidden="true"></div>
+    <div class="contact-orbit contact-orbit-one" aria-hidden="true"></div>
+    <div class="contact-orbit contact-orbit-two" aria-hidden="true"></div>
+
+    <section class="contact-intro" aria-labelledby="contact-title">
+      <div class="contact-eyebrow"><span class="contact-live-dot"></span> NOVOS PROJETOS / 2026</div>
+      <h1 id="contact-title">SUA IDEIA<br />MERECE <span>GANHAR<br />FORMA.</span></h1>
+      <p class="contact-lead">Toda marca começa com uma boa conversa. Conte um pouco do que você está planejando e vamos pensar no próximo passo juntos.</p>
+
+      <div class="contact-divider"></div>
+      <div class="contact-signoff">
+        <span class="contact-signoff-symbol">G&I<span>✳</span></span>
+        <div><strong>DO SEU SONHO À SUA MARCA.</strong><small>ESTRATÉGIA · DESIGN · TECNOLOGIA</small></div>
+      </div>
+    </section>
+
+    <section class="contact-form-wrap" aria-labelledby="form-title">
+      <div class="contact-form-top">
+        <div><span class="contact-form-kicker">VAMOS COMEÇAR</span><h2 id="form-title">Fale sobre seu projeto<span>.</span></h2></div>
+        <span class="contact-form-index">01 / 01</span>
+      </div>
+      <p class="contact-form-description">Preencha os campos abaixo. Ao enviar, abriremos uma conversa no WhatsApp com as informações que você compartilhou.</p>
+
+      <form class="contact-form" id="contact-form">
+        <div class="contact-field">
+          <label for="contact-name">SEU NOME <span>*</span></label>
+          <input id="contact-name" name="name" type="text" placeholder="Como podemos chamar você?" autocomplete="name" required maxlength="90" />
+        </div>
+        <div class="contact-field">
+          <label for="contact-business">NOME DA EMPRESA <small>OPCIONAL</small></label>
+          <input id="contact-business" name="business" type="text" placeholder="Sua empresa ou marca" autocomplete="organization" maxlength="100" />
+        </div>
+        <div class="contact-field">
+          <label for="contact-service">O QUE VOCÊ PRECISA? <span>*</span></label>
+          <select id="contact-service" name="service" required>
+            <option value="" selected disabled>Selecione um serviço</option>
+            <option>Criação de site</option>
+            <option>Identidade visual</option>
+            <option>Design e conteúdo para redes sociais</option>
+            <option>Produção e edição de vídeos</option>
+            <option>Estratégia de marketing digital</option>
+            <option>Outro projeto</option>
+          </select>
+        </div>
+        <div class="contact-field">
+          <label for="contact-details">CONTE UM POUCO SOBRE A IDEIA <span>*</span></label>
+          <textarea id="contact-details" name="details" rows="4" placeholder="O que você deseja criar, melhorar ou alcançar?" required maxlength="1200"></textarea>
+        </div>
+        <button class="contact-submit" type="submit">CONTINUAR NO WHATSAPP <span aria-hidden="true">↗</span></button>
+        <p class="contact-privacy">Ao continuar, suas informações serão incluídas na mensagem do WhatsApp. Nada é enviado por este formulário para um banco de dados.</p>
+        <p class="contact-feedback" id="contact-feedback" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="contact-footer">
+    <span>G&I AGÊNCIA © <span id="contact-year">2026</span></span>
+    <span>FEITO COM PROPÓSITO.</span>
+    <a href="../">CONHEÇA A G&I <span aria-hidden="true">↗</span></a>
+  </footer>
+  <script src="contato.js" defer></script>
+</body>
+</html>
