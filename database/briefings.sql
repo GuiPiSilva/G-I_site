@@ -1,4 +1,3 @@
-CREATE EXTENSION IF NOT EXISTS pgcrypto;
 CREATE TABLE IF NOT EXISTS public.gi_site_briefings (
   id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
   name text NOT NULL,
