@@ -131,3 +131,11 @@
 @media(max-width:800px){.section-rail{right:9px;gap:8px}.rail-track{height:48px}.rail-caption{display:none}.rail-num{font-size:14px}.hero-scroll-label{bottom:3%;font-size:8px}.hero-image{transform:translate3d(0,calc(var(--hero-shift,0px) * .25),0) scale(1.025)!important}.founders-photo img{transform:translate3d(0,var(--photo-y,0px),0) scale(1.1)}.show-tile-a .tile-logo,.show-tile-b .orbit,.show-tile-c .tile-type{will-change:auto}}
 @media(max-width:520px){.section-rail{right:5px}.rail-caption{display:none}.hero-scroll-label{display:none}.hero-inner{opacity:1}.footer-title span{transform:none}}
 @media(prefers-reduced-motion:reduce){.section-rail,.hero-scroll-label{display:none}.hero-image{transform:none!important}.hero-inner,.hero-index{opacity:1!important}.ticker-track{animation:none!important}.founders-photo::after{display:none}.founders-photo img,.founders-photo:hover img{transform:none!important}.photo-stamp{opacity:1;transform:none}.manifesto{animation:none}.manifesto-icon{transform:none}.footer-title span{transform:none!important}.service-item::after{transform:scaleX(1)}.show-tile-a .tile-logo,.show-tile-b .orbit,.show-tile-c .tile-type{transform:none}}
+
+
+/* Links de serviço: navegação interna rastreável e clara para visitantes */
+.service-detail-link{display:inline-flex;align-items:center;gap:12px;margin-top:13px;color:var(--blue);font-size:9px;font-weight:900;letter-spacing:.14em;position:relative;z-index:2;transition:color .2s,transform .2s}
+.service-detail-link span{display:inline-block;transition:transform .2s}
+.service-detail-link:hover{color:#fff;transform:translateX(3px)}
+.service-detail-link:hover span{transform:translate(3px,-3px)}
+.service-detail-link:focus-visible{outline:2px solid var(--blue);outline-offset:4px}
