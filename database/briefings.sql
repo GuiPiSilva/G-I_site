@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS public.gi_site_briefings (
   features jsonb NOT NULL DEFAULT '[]'::jsonb,
   brand_identity text NOT NULL DEFAULT '',
   colors text NOT NULL DEFAULT '',
-  references text NOT NULL DEFAULT '',
+  "references" text NOT NULL DEFAULT '',
   reference_notes text NOT NULL DEFAULT '',
   avoid text NOT NULL DEFAULT '',
   domain text NOT NULL DEFAULT '',
